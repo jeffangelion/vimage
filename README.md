@@ -20,22 +20,22 @@ cats, _ := vimage.read_from_array(cool_image_from_network) or {
 ```
 
 ## Roadmap to 1.0.0
-[X] farbfeld support
+- [X] farbfeld support
 
-[ ] basic PNG support
+- [ ] basic PNG support
 
-[ ] basic GIM support
+- [ ] basic GIM support
 
-[X] get/set pixels by coordinates
+- [X] get/set pixels by coordinates
 
-[X] invert colors
+- [X] invert colors
 
-[X] rotate/flip image
+- [X] rotate/flip image
 
 ## Roadmap to future releases
-[] more image formats
+- [ ] more image formats
 
-[] complete support of included formats (i.e. PNG Adam7 interlace)
+- [ ] complete support of included formats (i.e. PNG Adam7 interlace)
 
 ## Need something working and more simple for your project? Check this out
 
