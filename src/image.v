@@ -129,7 +129,7 @@ pub struct Truecolor {
 	red   u16
 	green u16
 	blue  u16
-	alpha u16
+	alpha u16 = max_u16
 }
 
 pub struct Grayscale {
