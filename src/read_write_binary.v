@@ -2,6 +2,8 @@ module vimage
 
 import encoding.binary
 
+const big_endian = true
+
 fn read_u16(data []u8, is_big_endian bool) u16 {
 	return match is_big_endian {
 		true { binary.big_endian_u16(data) }
